@@ -1,0 +1,48 @@
+:focus{
+    background-color: aqua;
+}
+
+
+a:visited{
+    color: chartreuse;
+}
+
+h1::selection{
+    background-color: yellow;
+    color: red;
+}
+h2{
+    color: blueviolet;
+}
+
+h2::before{
+    content: 'Lionel Messi is ';
+    color: tomato;
+}
+
+h2::after{
+    content: ' like Cristiano Ronaldo!';
+    color: purple;
+}
+
+p::before{
+    content: 'Bir bor ekan, bir yoq ekan ' ;
+}
+p{
+    font-family: serif;
+}
+p::first-letter{
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    color: pink;
+}
+
+p::first-line{
+    text-decoration: underline;
+    background-color: chocolate;
+}
+
+::placeholder{
+    text-decoration: line-through;
+    color: red;
+}
